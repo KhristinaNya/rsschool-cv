@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/svg/icon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Joan&family=Merriweather:wght@300&family=Roboto:wght@100&family=Tai+Heritage+Pro:wght@700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container"></div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section-profile" id="profile">
+                <img src="./assets/img/photo.jpg" alt class="photo" />
+                <h1 class="section-name">Khristina</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Brest, Belarus</li>
+                    <li class="section-item contacts-item">
+                        Email: <a href="mailto:kristina19960712@gmail.com" title="email">kristina19960712@gmail.com</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Github: <a href="https://github.com/khristinanya" title="github">khristinanya</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Telegram: <a href="https://t.me/irinainina" title="github">@Kris</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Discord: <a href="https://discord.gg/zUr7wWYPXE" title="github">kristina19960712#9192</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    I’m hardworking and responsible person. I like to get new experience, it’s very interesting to know
+                    new
+                    things. I have been writing code on Delphi for 3 years and I want to study more popular language.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML, CSS, JavaScript</li>
+                    <li class="section-item">Delphi</li>
+                    <li class="section-item">GIT, Github</li>
+                    <li class="section-item">SQL</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <code>
+                    function sum(number) {<Br>
+                         return number.toString().split('').reduce((acc, value) => acc + +value, 0); <Br>
+                    }<Br>
+                    function orderWeight(strng) { <Br>
+                        return strng.split(" ").sort((a,b) => sum(a) - sum(b) || <Br>
+                        a.localeCompare(b)).join(' '); <Br>
+                    }
+          </code>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <p>JS/FE Pre-School 2022Q2</p>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul>
+                    <li><a href=https://www.codewars.com/users/KhristinaNya/completed_solutions target="_blank">Codewars solutions</a></li>
+                    <li><a href=https://github.com/khristinanya target="_blank">Github</a></li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Brest State Technical University</p>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>A2 Pre-Intermediate</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <span> © 2022 <a href="https://github.com/khristinanya"  target="_blank" class="github-link">khristinanya</a></span>
+            <a href="https://rs.school/js/" target="_blank"><img src="./assets/svg/rs_school_js.svg" alt="RS school" width="60"> 
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
